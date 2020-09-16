@@ -11,10 +11,8 @@ function additionner(nb1, nb2) {
 var resultat1 = additionner(nombre1, nombre2);
 console.log(resultat1);
 
-// fonction somme
-function somme(nb1, nb2){
-    return additionner(nb1, nb2);
-}
+
+var somme = additionner;
 
 var resultat2 = somme(nombre1, nombre2);
 console.log(resultat2);

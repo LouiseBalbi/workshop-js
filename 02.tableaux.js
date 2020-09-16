@@ -47,6 +47,5 @@ function terminantParS(ville){
     return ville.endsWith('s');
 }
 
-var villesTerminantParS = villes.filter(terminantParS);
-var villesMajusculeSeTerminantParS = villesTerminantParS.map(villeMaj);
+var villesMajusculeSeTerminantParS = villes.filter(terminantParS).map(villeMaj);
 villesMajusculeSeTerminantParS.forEach(element => console.log(element));
